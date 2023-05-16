@@ -1,0 +1,11 @@
+header {
+  display: block;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav p {
+  margin-right: 20px;
+}
