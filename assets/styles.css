@@ -2,13 +2,36 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #335c67;
+  color: #e09f3e;
 }
-.nav {
+
+h1 {
+  font-size: 250%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+nav a {
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*.nav {
   display: flex;
 }
 
-.nav-list {
+/*.nav-list {
   display: flex;
   justify-content: space-between;
-  min-width: 300px;
+  min-width: 200px;
+}*/
+
+.main {
+  display: flex;
+  background-color: #fff3b0;
 }
