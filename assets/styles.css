@@ -32,7 +32,14 @@ nav ul {
   align-items: center;
   padding-left: 50px;
   width: 100%;
+  list-style: none;
+  text-decoration: none;
 }
+a {
+  text-decoration: none;
+  color: #e09f3e;
+}
+
 /* Nav section ends */
 .forest {
   display: flex;
@@ -40,6 +47,7 @@ nav ul {
 }
 li {
   padding-left: 50px;
+  text-decoration: none;
 }
 
 .main {
@@ -50,11 +58,9 @@ li {
 }
 h2 {
   font-size: 40px;
+  border-right: solid #540b0e;
 }
 
-p {
-  padding-left: 20px;
-}
 .card {
   display: flex;
   align-items: center;
@@ -63,5 +69,10 @@ p {
 
 .card-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 20px bold;
+  margin-left: 100px;
+}
+
+#about-me {
 }
