@@ -100,7 +100,14 @@ img {
 }
 
 .card li {
-  display: flex;
-  justify-content: center;
+  display: inline;
+  font-size: 50px;
+  font-weight: 100;
   list-style: none;
+}
+
+.footer {
+  background-color: #335c67;
+  color: #e09f3e;
+  text-align: center;
 }
