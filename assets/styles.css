@@ -61,12 +61,37 @@ h2 {
   border-right: solid #540b0e;
 }
 
+/* Work thumbnails */
+img {
+  border: 5px solid #335c67;
+  border-spacing: 5px;
+}
+
+.mainwork {
+  height: 250px;
+}
+.topleft {
+  height: 125px;
+  float: left;
+  width: 160px;
+  margin-right: 10px;
+}
+.topright {
+  height: 125px;
+  width: 160px;
+}
+.btmleft {
+  height: 200px;
+  float: center;
+  width: 160px;
+}
+
+/* Work thumbnails ends */
 .card {
   display: flex;
   align-items: center;
   padding: 20px;
 }
-
 .card-content {
   display: flex;
   justify-content: space-evenly;
@@ -74,5 +99,8 @@ h2 {
   margin-left: 100px;
 }
 
-#about-me {
+.card li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
