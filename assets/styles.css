@@ -41,10 +41,16 @@ a {
 }
 
 /* Nav section ends */
-.forest {
-  display: flex;
-  background-color: #fff3b0;
+
+#hero {
+  background-image: url(./0917221159.jpg);
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 li {
   padding-left: 50px;
   text-decoration: none;
@@ -58,7 +64,6 @@ li {
 }
 h2 {
   font-size: 40px;
-  border-right: solid #540b0e;
 }
 
 /* Work thumbnails */
@@ -68,35 +73,49 @@ img {
 }
 
 .mainwork {
-  height: 250px;
+  width: 100%;
 }
+.mainwork:hover {
+  box-shadow: 10px 5px 5px #540b0e;
+}
+
 .topleft {
-  height: 125px;
-  float: left;
-  width: 160px;
-  margin-right: 10px;
+  /* height: 125px; */
+  width: 50%;
+  margin: 10px;
 }
 .topright {
-  height: 125px;
-  width: 160px;
+  /* height: 125px; */
+  width: 50%;
+  margin: 10px;
 }
 .btmleft {
-  height: 200px;
-  float: center;
-  width: 160px;
+  /* height: 200px; */
+  width: 50%;
+  margin: 10px;
 }
 
 /* Work thumbnails ends */
 .card {
   display: flex;
   align-items: center;
+  width: 100%;
   padding: 20px;
+}
+
+#work,
+#contact-me,
+aside {
+  align-self: flex-start;
+  width: 20%;
 }
 .card-content {
   display: flex;
   justify-content: space-evenly;
   font-size: 20px bold;
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  padding: 20px;
+  border-left: solid #540b0e;
 }
 
 .card li {
@@ -104,6 +123,19 @@ img {
   font-size: 50px;
   font-weight: 100;
   list-style: none;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  border-left: solid #540b0e;
+  padding-left: 20px;
+}
+.small-projects {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .footer {
